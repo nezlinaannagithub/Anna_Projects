@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.011,=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.235,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\File1.cpp=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\Board.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.438,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\File1.cpp=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\Shapes.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.962,=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.950,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\Project3.cbproj=C:\Users\Анатолий\Documents\Embarcadero\Studio\Projects\Project3.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.790,=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.605,=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.084,=C:\Users\Анатолий\Documents\Embarcadero\Studio\Projects\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.651,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\Unit2.cpp=C:\Users\Анатолий\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.753,=C:\Users\Анатолий\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.910,=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.999,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\File1.cpp=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\Main.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.637,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\File1.cpp=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++(1)\Game.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.538,=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.620,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\IO.h=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.267,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\Shapes.h=C:\Users\Анатолий\Documents\Embarcadero\Studio\Projects\Shapes.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.339,=C:\Users\Анатолий\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.677,=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.718,C:\Users\Анатолий\Documents\Embarcadero\Studio\Projects\Shapes.h=C:\Users\Анатолий\Documents\Embarcadero\Studio\Projects\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.478,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\Game.h=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.965,=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.270,=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\IO.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.964,=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\IO.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.651,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\Unit2.h=C:\Users\Анатолий\Documents\Embarcadero\Studio\Projects\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.655,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\IO.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.876,=D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\Board.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.780,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\Project3PCH1.h=C:\Users\Анатолий\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.651,D:\ДИПЛОМНАЯ РАБОТА\Tetris v0.1_C++\Unit2.dfm=C:\Users\Анатолий\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Board.h"/>
+    <File Path="Project3.cpp"/>
+    <File Path="Project3PCH1.h"/>
+    <File Path="Shapes.h"/>
+    <File Path="Unit2.cpp"/>
+    <File Path="Unit2.cpp"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit2.h"/>
+    <File Path="Game.h"/>
+    <File Path="IO.h"/>
+    <File Path="IO.cpp"/>
+    <File Path="Game.cpp"/>
+    <File Path="Shapes.cpp"/>
+    <File Path="Board.cpp"/>
+    <File Path="Main.cpp"/>
+  </ProjectSortOrder>
+</BorlandProject>

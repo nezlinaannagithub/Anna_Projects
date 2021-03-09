@@ -1,0 +1,446 @@
+<!Doctype html>
+<html>
+
+<head>
+   
+	<link rel="stylesheet" href="cat.css">
+	<link rel="icon" href="img/icon.png">
+  
+    
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+     <script>
+    $(document).ready(function(){
+    
+       $("img").draggable({revert: "invalid"});
+   
+	
+       $("#g1").droppable({accept: "#img_drink",
+			drop:function(){
+			$("#g1").css("background-color","#c4f66f");
+			$("#img_drink").css("width","100");
+			$("#g1").prepend("Well done!");
+			$("#g1").append("Пить");
+	   }});
+	   
+	    $("#g2").droppable({accept: "#img_sweep",
+			drop:function(){
+			$("#g2").css("background-color","#c4f66f");
+			$("#img_sweep").css("width","100");
+			$("#g2").prepend("Well done!");
+			$("#g2").append("Подметать");
+        }});
+		
+		$("#g3").droppable({accept: "#img_swim",
+			drop:function(){
+			$("#g3").css("background-color","#c4f66f");
+			$("#img_swim").css("width","100");
+			$("#g3").prepend("Well done!");
+			$("#g3").append("Плыть");
+        }});
+		
+		$("#g4").droppable({accept: "#img_sit",
+			drop:function(){
+			$("#g4").css("background-color","#c4f66f");
+			$("#img_sit").css("width","100");
+			$("#g4").prepend("Well done!");
+			$("#g4").append("Сидеть");
+        }});
+		
+		$("#g5").droppable({accept: "#img_go",
+			drop:function(){
+			$("#g5").css("background-color","#c4f66f");
+			$("#img_go").css("width","100");
+			$("#g5").prepend("Well done!");
+			$("#g5").append("Идти");
+        }});
+		
+		$("#g6").droppable({accept: "#img_run",
+			drop:function(){
+			$("#g6").css("background-color","#c4f66f");
+			$("#img_run").css("width","100");
+			$("#g6").prepend("Well done!");
+			$("#g6").append("Бежать");
+        }});
+		
+		$("#g7").droppable({accept: "#img_draw",
+			drop:function(){
+			$("#g7").css("background-color","#c4f66f");
+			$("#img_draw").css("width","100");
+			$("#g7").prepend("Well done!");
+			$("#g7").append("Рисовать");
+        }});
+		
+		$("#g8").droppable({accept: "#img_fly",
+			drop:function(){
+			$("#g8").css("background-color","#c4f66f");
+			$("#img_fly").css("width","100");
+			$("#g8").prepend("Well done!");
+			$("#g8").append("Летать");
+        }});
+		
+		$("#g9").droppable({accept: "#img_give",
+			drop:function(){
+			$("#g9").css("background-color","#c4f66f");
+			$("#img_give").css("width","100");
+			$("#g9").prepend("Well done!");
+			$("#g9").append("Давать");
+        }});
+		
+		$("#g10").droppable({accept: "#img_shoot",
+			drop:function(){
+			$("#g10").css("background-color","#c4f66f");
+			$("#img_shoot").css("width","100");
+			$("#g10").prepend("Well done!");
+			$("#g10").append("Стрелять");
+        }});
+		
+		$("#g11").droppable({accept: "#img_see",
+			drop:function(){
+			$("#g11").css("background-color","#c4f66f");
+			$("#img_see").css("width","100");
+			$("#g11").prepend("Well done!");
+			$("#g11").append("Видеть");
+        }});
+		
+		$("#g12").droppable({accept: "#img_hear",
+			drop:function(){
+			$("#g12").css("background-color","#c4f66f");
+			$("#img_hear").css("width","100");
+			$("#g12").prepend("Well done!");
+			$("#g12").append("Слышать");
+        }});
+		
+		$("#g13").droppable({accept: "#img_hang",
+			drop:function(){
+			$("#g13").css("background-color","#c4f66f");
+			$("#img_hang").css("width","100");
+			$("#g13").prepend("Well done!");
+			$("#g13").append("Весеть");
+        }});
+	  
+	  	$("#g14").droppable({accept: "#img_know",
+			drop:function(){
+			$("#g14").css("background-color","#c4f66f");
+			$("#img_know").css("width","100");
+			$("#g14").prepend("Well done!");
+			$("#g14").append("Знать");
+        }});
+		
+			$("#g15").droppable({accept: "#img_teach",
+			drop:function(){
+			$("#g5").css("background-color","#c4f66f");
+			$("#img_teach").css("width","100");
+			$("#g15").prepend("Well done!");
+			$("#g15").append("Учить");
+        }});
+		
+			$("#g16").droppable({accept: "#img_win",
+			drop:function(){
+			$("#g16").css("background-color","#c4f66f");
+			$("#img_win").css("width","100");
+			$("#g16").prepend("Well done!");
+			$("#g16").append("Побеждать");
+        }});
+			$("#g17").droppable({accept: "#img_sing",
+			drop:function(){
+			$("#g17").css("background-color","#c4f66f");
+			$("#img_sing").css("width","100");
+			$("#g17").prepend("Well done!");
+			$("#g17").append("Петь");
+        }});
+		
+			$("#g18").droppable({accept: "#img_throw",
+			drop:function(){
+			$("#g18").css("background-color","#c4f66f");
+			$("#img_throw").css("width","100");
+			$("#g18").prepend("Well done!");
+			$("#g18").append("Бросать");
+        }});
+    });
+   
+    
+</script>
+
+</head>
+
+<body>
+ <div  id="up" class="comeback"><a href="index.html"><img src="img/comeback.png" width="100" height="100"></a></div>
+	<div class="cat1_rak">
+		<img src="img/cat1_rak.gif" >
+	
+		<h2 class="h1t" title="Это одна из моих любимых игр!
+Пожалуйста, перетащи одно из слов в его поле!">It is one of my favourite games! Please, put one of the words in their poles!</h2>
+	</div>
+	<div class="nav">
+		<div class="nav_left" >  
+			<div id="nav1"><a href="#g1"> Drink </a></div>  
+			<div id="nav2"><a href="#g2">Sweep </a></div>  
+			<div id="nav3"><a href="#g3">Swim </a></div> 
+			<div id="nav4"><a href="#g4"> Sit </a></div>  
+			<div id="nav5"><a href="#g5"> Go </a></div>  
+			<div id="nav6"><a href="#g6">Run </a></div> 
+			<div id="nav7"><a href="#g7"> Draw </a></div>  
+			<div id="nav8"><a href="#g8"> Fly </a></div>  
+			<div id="nav9"><a href="#g9"> Give </a></div> 
+		</div>  
+		
+		<div class="nav_right" >  
+			<div id="nav11"><a href="#g10"> Shoot </a></div>  
+			<div id="nav21"><a href="#g11"> See </a></div>  
+			<div id="nav31"><a href="#g12"> Hear </a></div> 
+			<div id="nav41"><a href="#g13">  Hang</a></div>  
+			<div id="nav51"><a href="#g14">  Know</a></div>  
+			<div id="nav61"><a href="#g15"> Teach</a> </div> 
+			<div id="nav71"><a href="#g16"> Win </a></div>  
+			<div id="nav81"><a href="#g17"> Sing </a></div>  
+			<div id="nav91"><a href="#g18"> Throw </a></div> 
+		</div>  
+        
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g1">    
+          - Drink -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+            <img src="img/cat/feed.png" id="img_feed">
+			 <img src="img/cat/drink.png" id="img_drink">
+			 <img src="img/cat/drive.png" id="img_drive">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g2">    
+          - Sweep -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/ring.png" id="img_ring">
+			<img src="img/cat/read.png" id="img_read">
+			  <img src="img/cat/sweep.png" id="img_sweep">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g3">    
+          - Swim -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/ride.png" id="img_ride">
+			<img src="img/cat/say.png" id="img_say">
+			  <img src="img/cat/swim.png" id="img_swim">
+        </div>
+       
+    </div>
+	
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g4">    
+          - Sit -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/sit.png" id="img_sit">
+			<img src="img/cat/mistake.png" id="img_mistake">
+			  <img src="img/cat/rise.png" id="img_rise">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g5">    
+          - Go -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/go.png" id="img_go">
+			<img src="img/cat/pay.png" id="img_pay">
+			  <img src="img/cat/meet.png" id="img_meet">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g6">    
+          - Run -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/mean.png" id="img_mean">
+			<img src="img/cat/run.png" id="img_run">
+			  <img src="img/cat/make.png" id="img_make">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g7">    
+          - Draw -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/lose.png" id="img_lose">
+			<img src="img/cat/let.png" id="img_let">
+			  <img src="img/cat/draw.png" id="img_draw">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g8">    
+          - Fly -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/lie.png" id="img_lie">
+			<img src="img/cat/fly.png" id="img_fly">
+			  <img src="img/cat/light.png" id="img_light">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g9">    
+          - Give -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/give.png" id="img_give">
+			<img src="img/cat/learrn.png" id="img_learrn">
+			  <img src="img/cat/put.png" id="img_put">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g10">    
+         - Shoot -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/shoot.png" id="img_shoot">
+			<img src="img/cat/hide.png" id="img_hide">
+			  <img src="img/cat/keep.png" id="img_keep">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g11">    
+          - See -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/ring.png" id="img_ring">
+			<img src="img/cat/lead.png" id="img_lead">
+			  <img src="img/cat/see.png" id="img_see">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g12">    
+          - Hear -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/hear.png" id="img_hear">
+			<img src="img/cat/lay.png" id="img_lay">
+			  <img src="img/cat/get.png" id="img_get">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g13">    
+           - Hang -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/dug.png" id="img_dug">
+			<img src="img/cat/hang.png" id="img_hang">
+			  <img src="img/cat/cut.png" id="img_cut">
+        </div>
+       
+    </div>
+	
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g14">    
+          - Know -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/know.png" id="img_know">
+			<img src="img/cat/blow.png" id="img_blow">
+			  <img src="img/cat/build.png" id="img_build">
+        </div>
+       
+    </div>
+	<br><br><br>
+	
+	<div class="game">
+		 <div class="game_3" id="g15">    
+         - Teach -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+             <img src="img/cat/teach.png" id="img_teach">
+			<img src="img/cat/write.png" id="img_write">
+			<img src="img/cat/go.png" id="img_go">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g16">    
+           - Win -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+            <img src="img/cat/win.png" id="img_win">
+			<img src="img/cat/forget.png" id="img_forget">
+			<img src="img/cat/dream.png" id="img_dream">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g17">    
+          - Sing -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+            <img src="img/cat/find.png" id="img_find">
+			<img src="img/cat/sing.png" id="img_sing">
+			<img src="img/cat/feel.png" id="img_feel">
+        </div>
+       
+    </div>
+	<br><br><br>
+	<div class="game">
+		 <div class="game_3" id="g18">    
+          - Throw -
+        </div>
+		<div class="clear"></div>
+        <div class="game_4">
+            <img src="img/cat/throw.png" id="img_throw">
+			<img src="img/cat/begin.png" id="img_begin">
+			<img src="img/cat/fall.png" id="img_fall">
+        </div>
+       
+    </div>
+	
+	<br><br><br>
+	</div>
+	<a href="#up"><img src="img/up.png" class="up"></a>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit2H
+#define Unit2H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <gl/gl.h>
+#include <gl/glu.h>
+
+#include <windows.h>
+//---------------------------------------------------------------------------
+// Постоянный контекст рендеринга
+  HGLRC   hRC=NULL;
+// Приватный контекст устройства GDI
+  HDC   hDC=NULL;
+// Здесь будет хранится дескриптор окна (ссылка на окно рендеринга)
+  HWND   hWnd=NULL;
+// Здесь будет хранится дескриптор приложения (ссылка на наше приложение)
+  HINSTANCE hInstance;
+// Хранит результат после поиска
+  GLuint    PixelFormat;
+//---------------------------------------------------------------------------
+class TForm2 : public TForm
+{
+__published:	// IDE-managed Components
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm2(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm2 *Form2;
+//---------------------------------------------------------------------------
+#endif

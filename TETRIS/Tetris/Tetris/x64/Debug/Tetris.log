@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  Board.cpp
+  Game.cpp
+c:\users\анатолий\source\repos\tetris\tetris\tetris\game.h(8): fatal error C1083: Не удается открыть файл включение: SDL.h: No such file or directory,
+  IO.cpp
+c:\users\анатолий\source\repos\tetris\tetris\tetris\game.h(8): fatal error C1083: Не удается открыть файл включение: SDL.h: No such file or directory,
+  Shapes.cpp
+  Tetris.cpp
+c:\users\анатолий\source\repos\tetris\tetris\tetris\game.h(8): fatal error C1083: Не удается открыть файл включение: SDL.h: No such file or directory,
+  Создание кода...

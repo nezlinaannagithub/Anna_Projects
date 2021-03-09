@@ -1,0 +1,31 @@
+#ifndef _SHAPES_
+#define _SHAPES_
+
+//-----------------------------------------------------------------------------
+//                          Клас фігури
+//-----------------------------------------------------------------------------
+class Shapes
+{
+	public:
+
+	 int GetBlockType (int sShape, int sRott, int sX, int sY);
+	 int GetXInitPos (int sShape, int sRott);
+     int GetYInitPos (int sShape, int sRott);
+
+};
+//Метод, що повертая тип фігури
+int Shapes::GetBlockType (int sShape, int sRott, int sX, int sY)
+{
+   return mShape [sShape][sRott][sX][sY];
+}
+//Метод, що задая початкову позицію по осі x
+int Shapes::GetXInitPos (int sShape, int sRott)
+{
+    return mShapeInitPos [sShape][sRott][0];
+}
+//Метод, що задая початкову позицію по осі y
+int Shapes::GetYInitPos (int sShape, int sRott)
+{
+    return mShapeInitPos [sShape][sRott][1];
+}
+#endif

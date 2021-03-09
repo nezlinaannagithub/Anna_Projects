@@ -1,0 +1,122 @@
+<!Doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="img/icon.png">
+    
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+     <script>
+    $(document).ready(function(){
+    
+        
+       $(".v_r div").draggable({revert: "invalid"});
+      
+	   
+       $("#break_").droppable({accept: "#break",
+			drop:function(){
+			$("#break").css("color","green");
+	    }});
+       
+	    $("#bring_").droppable({accept: "#bring",
+			drop:function(){
+			$("#bring").css("color","green");
+	    }});
+		
+		   $("#catch_").droppable({accept: "#catch",
+			drop:function(){
+			$("#catch").css("color","green");
+	    }});
+		
+		   $("#do_").droppable({accept: "#do",
+			drop:function(){
+			$("#do").css("color","green");
+	    }});
+		
+		   $("#run_").droppable({accept: "#run",
+			drop:function(){
+			$("#run").css("color","green");
+	    }});
+		
+		   $("#come_").droppable({accept: "#come",
+			drop:function(){
+			$("#come").css("color","green");
+	    }});
+		
+		   $("#fall_").droppable({accept: "#fall",
+			drop:function(){
+			$("#fall").css("color","green");
+	    }});
+		
+		   $("#shake_").droppable({accept: "#shake",
+			drop:function(){
+			$("#shake").css("color","green");
+	    }});
+		
+		   $("#put_").droppable({accept: "#put",
+			drop:function(){
+			$("#put").css("color","green");
+	    }});
+		
+		   $("#feed_").droppable({accept: "#feed",
+			drop:function(){
+			$("#feed").css("color","green");
+	    }});
+		
+		   $("#go_").droppable({accept: "#go",
+			drop:function(){
+			$("#go").css("color","green");
+	    }});
+    });
+   
+    
+</script>
+</head>
+
+<body>
+<div id="up" class="comeback"><a href="index.html"><img src="img/comeback.png" width="100" height="100"></a></div>
+    <div class="box1">
+	
+	<div class="cat_think_ben_32">
+				<div class="cat32"><img src="img/32.gif" ></div>
+					<div class="think_32">
+						<img src="img/think32.png" width="250" title="Давай проверим как ты  запомнил слова из видео.  Это будет интересно" >
+					</div>
+				</div>
+				<button><a href="video.html" title="посмотреть видео">watch video</a></button>
+		 <div class="video_game">    
+            <img src="img/break.png" id="break_">
+			 <img src="img/bring.png" id="bring_">
+			  <img src="img/catch.png" id="catch_">
+			  <img src="img/come.png" id="come_">
+			  <img src="img/shake.png" id="shake_">
+			  <img src="img/put.png" id="put_">
+			  <img src="img/run.png" id="run_">
+			  <img src="img/go.png" id="go_">
+			  <img src="img/feed.png" id="feed_">
+			  <img src="img/fall.png" id="fall_">
+        </div>
+		
+       
+            <div class="v_r">
+				
+				<div id="catch">ловить</div>
+				<div id="shake">трясти</div>
+				<div id="bring">принести</div>
+				<div id="put">класть</div>
+				<div id="run">бежать</div>
+				<div id="come">приходить</div>
+				<div id="go">идти</div>
+				<div id="fall">падать</div>
+				<div id="break">ломать</div>
+				<div id="feed">кормить</div>
+			</div>
+        
+       
+    </div>
+<a href="#up"><img src="img/up.png" class="up"></a>
+</body>
+
+</html>

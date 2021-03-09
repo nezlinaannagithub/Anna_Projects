@@ -1,0 +1,15 @@
+#include "Board.h"
+
+
+Board::Board (Shapes *sShapes, int sScreenHeight)
+{
+	// Get the screen height
+	mScreenHeight = sScreenHeight;
+
+	// Get the pointer to the pieces class
+	mPieces = sShapes;
+
+	//Init the board blocks with free positions
+	InitBoard();
+}
+

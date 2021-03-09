@@ -1,0 +1,133 @@
+<!Doctype html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="style.css">
+			<link rel="icon" href="img/icon.png">
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+
+     <script>
+	    $(document).ready(function(){
+ 	   
+			$("#ok_woke").click(function(){
+				var v = $("#woke").val();
+	
+				if (v == 'woke') {
+					$("#rez_woke").text("ok").css("color","green");
+				}
+				else {
+					$("#rez_woke").text("error").css("color","red");
+				}
+			}); 
+			
+			$("#ok_thought").click(function(){
+				var v = $("#thought").val();
+	
+				if (v == 'thought') {
+					$("#rez_thought").text("ok").css("color","green");
+				}
+				else {
+					$("#rez_thought").text("error").css("color","red");
+				}
+			}); 
+			
+			$("#ok_drove").click(function(){
+				var v = $("#drove").val();
+	
+				if (v == 'drove') {
+					$("#rez_drove").text("ok").css("color","green");
+				}
+				else {
+					$("#rez_drove").text("error").css("color","red");
+				}
+			}); 
+			
+			$("#ok_flew").click(function(){
+				var v = $("#flew").val();
+	
+				if (v == 'flew') {
+					$("#rez_flew").text("ok").css("color","green");
+				}
+				else {
+					$("#rez_flew").text("error").css("color","red");
+				}
+			}); 
+			
+			$("#ok_ate").click(function(){
+				var v = $("#ate").val();
+	
+				if (v == 'ate') {
+					$("#rez_ate").text("ok").css("color","green");
+				}
+				else {
+					$("#rez_ate").text("error").css("color","red");
+				}
+			}); 
+		
+    });
+	
+</script>	
+		</head>
+		<body>
+		
+<div  id="up" class="comeback"><a href="index.html"><img src="img/comeback.png" width="100" height="100"></a></div>
+			<div id="up" class="box">
+				<div class="box1">
+				<h2>Заполняйте пропуски. Глагол-подсказка – в скобках.</h2>
+					<div class="ex">
+						<i>Когда она проснулась (wake), солнце светило в окна.</i>
+						<p>When she 
+						<input id="woke" size="7"> <b id="rez_woke" ></b>
+						, the sun was streaming through the windows.</p>
+						<button id="ok_woke">check</button>
+					</div>
+					
+					
+					<div class="ex">
+						<i>“Как странно!” – подумал (think) он.</i>
+						<p>‘How strange!' he 
+						<input id="thought" size="7"> <b id="rez_thought" ></b>
+						.</p>
+						<button id="ok_thought">check</button>
+					</div>
+					
+					
+					<div class="ex">
+						<i>Она отвезла (drive) Анну в Лондон.</i>
+						<p>She  
+						<input id="drove" size="7"> <b id="rez_drove" ></b>
+						Anna to London.</p>
+						<button id="ok_drove">check</button>
+					</div>
+					
+					
+					<div class="ex">
+						<i>Прошлым летом мы летали (fly) в Италию</i>
+						<p>We 
+						<input id="flew" size="7"> <b id="rez_flew" ></b>
+						to Italy last summer.</p>
+						<button id="ok_flew">check</button>
+					</div>
+					
+					
+					<div class="ex">
+						<i>Кто съел (eat) мою рыбу с картошкой-фри?</i>
+						<p>Who  
+						<input id="ate" size="7"> <b id="rez_ate" ></b>
+						my fish and chips?</p>
+						<button id="ok_ate">check</button>
+					</div>
+					
+				<div>
+	
+			</div>
+			<div class="poz_cat_bottom">
+				<div class="cat1_examples"><img src="img/cat1.gif" ></div>
+				<div class="think1_examples">
+					<img src="img/cat1.png" width="250" title="О, это интересно! Заполни пробелы, нажимая на клавиатуру. Удачи!">
+				</div>
+			</div>		
+			<a href="#up"><img src="img/up.png" class="up"></a>
+		</body>
+	</html>

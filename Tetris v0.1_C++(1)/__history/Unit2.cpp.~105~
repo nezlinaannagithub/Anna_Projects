@@ -1,0 +1,40 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit2.h"
+#include "Shapes.h"
+#include "Board.h"
+#include "Game.h"
+#include "IO.h"
+#include "Main.cpp"
+
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm2 *Form2;
+Shapes *Sh;
+IO *mIO;
+#include <SDL/include/SDL.h>
+#include "SDL/SDL_GfxPrimitives/sdl_gfxprimitives.h"
+#pragma comment (lib, "SDL/lib/SDL1.lib")
+#pragma comment (lib, "SDL/lib/SDL2-bcb.lib")
+#pragma comment (lib, "SDL/SDL_GfxPrimitives/SDL_GfxPrimitives_Static-bcb.lib")
+//---------------------------------------------------------------------------
+__fastcall TForm2::TForm2(TComponent* Owner)
+	: TForm(Owner)
+   {
+
+    mIO->InitGraph();
+    SDL_Surface *screen;
+   screen = SDL_CreateRGBSurface(0, 20, 20, 32, 0, 0, 0, 0);
+   SDL_FillRect(screen, NULL, SDL_MapRGB(screen->format, 255, 0, 0));
+
+}
+
+
+//---------------------------------------------------------------------------
+
+
+

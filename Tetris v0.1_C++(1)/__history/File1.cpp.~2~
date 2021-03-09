@@ -1,0 +1,14 @@
+#include "Game.h"
+
+#include <windows.h>
+
+/*
+==================
+Main
+==================
+*/
+int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)	// Linux users should quit this line
+{
+
+
+}

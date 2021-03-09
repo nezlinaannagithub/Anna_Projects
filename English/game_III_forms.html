@@ -1,0 +1,90 @@
+<!Doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+   
+    
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+     <script>
+    $(document).ready(function(){
+    
+        
+       $("#g_do").draggable({revert: "invalid"});
+       $("#g_go").draggable({revert: "invalid"});
+	   $("#g_draw").draggable({revert: "invalid"});
+	   $("#g_drink").draggable({revert: "invalid"});
+	   $("#g_dream").draggable({revert: "invalid"});
+	   $("#g_wet").draggable({revert: "invalid"});
+	   $("#g_read").draggable({revert: "invalid"});
+	   $("#g_do_2").draggable({revert: "invalid"});
+	   $("#g_do_3").draggable({revert: "invalid"});
+	   $("#g_go_2").draggable({revert: "invalid"});
+	   $("#g_go_3").draggable({revert: "invalid"});
+	   $("#g_draw_2").draggable({revert: "invalid"});
+	   $("#g_draw_3").draggable({revert: "invalid"});
+	   $("#g_grow").draggable({revert: "invalid"});
+	   $("#g_fly").draggable({revert: "invalid"});
+	   
+       $("#d_do").droppable({accept: ".do"});
+       $("#d_go").droppable({accept: ".go"});
+       $("#d_draw").droppable({accept: ".draw"});
+    });
+   
+    
+</script>
+</head>
+
+<body>
+<div class="comeback"><a href="index.html"><img src="img/comeback.png" width="100" height="100"></a></div>
+	
+	
+	
+	
+	<div class="cat_play">
+		<img src="img/cat_play.gif" >
+	</div>
+	<div class="r_1"></div>
+	<div class="r_2"></div>
+	<div class="r_3"></div>
+	<div class="r_4"></div>
+	<div class="think_play">
+		<img src="img/oblako.png" width="250">
+	</div>
+		
+		
+		
+		
+    <div class="game">
+		 <div class="game_2">    
+            <div id="d_do">Делать</div>
+            <div id="d_go">Идти</div>
+			<div id="d_draw">Рисовать</div>
+        </div>
+		<div class="clear"></div>
+        <div class="game_1">
+            <div class="do" id="g_do">do</div>   
+            <div class="go" id="g_go">go</div> 
+			 <div id="g_grow">grow</div> 
+            <div class="do" id="g_do_3">done</div> 
+			<div id="g_drink">drink</div>
+            <div class="go" id="g_go_3">gone</div>
+			<div class="draw" id="g_draw">draw</div> 
+			<div class="go" id="g_go_2">went</div>  
+			<div class="draw" id="g_draw_2">drew</div>   
+             <div id="g_fly">fly</div> 
+			<div id="g_dream">dream</div>   
+           <div class="do" id="g_do_2">did</div>   
+			<div id="g_read">read</div>   
+            <div id="g_wet">wet</div> 
+			<div class="draw" id="g_draw_3">drawn</div> 
+			
+        </div>
+       
+    </div>
+
+</body>
+
+</html>

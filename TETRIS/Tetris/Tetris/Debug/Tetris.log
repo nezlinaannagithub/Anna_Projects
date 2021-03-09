@@ -1,0 +1,7 @@
+﻿  Game.cpp
+  IO.cpp
+  Tetris.cpp
+  Создание кода...
+     Создается библиотека D:\ДИПЛОМНАЯ РАБОТА\TETRIS\Tetris\Debug\Tetris.lib и объект D:\ДИПЛОМНАЯ РАБОТА\TETRIS\Tetris\Debug\Tetris.exp
+MSVCRTD.lib(initializers.obj) : warning LNK4098: библиотека по умолчанию "msvcrt.lib" противоречит использованию других библиотек; используйте параметр /NODEFAULTLIB:library
+  Tetris.vcxproj -> D:\ДИПЛОМНАЯ РАБОТА\TETRIS\Tetris\Debug\Tetris.exe

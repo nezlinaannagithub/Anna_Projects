@@ -1,0 +1,2000 @@
+/*cats*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #8d9b50 url(img/back.jpg) no-repeat;
+    background-position: top bottom;
+    background-size: 100%;
+    font-family: cursive;
+}
+
+.cats img {
+    width: 300px;
+    float: left;
+    text-align: center;
+    display: none;
+}
+
+.game_4 {
+    text-align: center;
+}
+
+.game_4 img {
+    width: 200px;
+    cursor: move;
+    max-height: 200px;
+}
+
+.blackboards {
+    background: url(img/blackboard.png)no-repeat;
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+}
+
+.blackboards h2 {
+    margin: auto;
+    font-size: 40px;
+}
+
+.blackboards a {
+    color: white;
+}
+
+.blackboards a:hover {
+    color: orange;
+}
+
+.v_r {
+    float: right;
+}
+
+.v_r div {
+    background: rgba(215, 223, 99, .7);
+    width: 150px;
+    border: 2px solid #fff;
+    cursor: move;
+    width: 200px;
+    height: 70px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10%;
+    margin-top: 20px;
+    transition: 1s;
+    font-size: 26px;
+    color: yellow;
+    text-shadow: 0 0 5px orange;
+	
+}
+
+.video_game {
+    float: left;
+    width: 50%;
+}
+
+.video_game img {
+    width: 250px;
+    margin: 1%;
+    box-shadow: 0 0 5px orange;
+	
+}
+
+.vk img{
+	position:absolute;
+	top:100px;
+	left:73%;
+}
+.skype img{
+	position:absolute;
+	top:100px;
+	left:83%;
+}
+
+.me img{
+	position:absolute;
+	top:200px;
+	left:70%;
+}
+
+.insta img{
+	position:absolute;
+	top:100px;
+	left:93%;
+}
+
+.facebook img{
+	position:absolute;
+	top:100px;
+	left:63%;
+}
+
+
+.ex button {
+    float: right;
+}
+
+.box_audio {
+    width: 70%;
+    margin: 80px auto;
+	margin-right:200px;
+}
+
+.ex {
+    background: rgba(255, 255, 255, .5);
+    padding: 1%;
+    float: right;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.comeback {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.verb {
+    text-align: center;
+    width: 60%;
+    margin: 70px auto;
+}
+
+.box1 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.c1 {
+    background: #fff url(img/cat/beat.png);
+}
+
+.c2 {
+    background: #fff url(img/cat/begin.png);
+}
+
+.c3 {
+    background: #fff url(img/cat/bend.png);
+}
+
+.c4 {
+    background: #fff url(img/cat/blow.png);
+}
+
+.c5 {
+    background: #fff url(img/cat/breake.png);
+}
+
+.c6 {
+    background: #fff url(img/cat/build.png);
+}
+
+.c7 {
+    background: #fff url(img/cat/burn.png);
+}
+
+.c8 {
+    background: #fff url(img/cat/buy.png);
+}
+
+.c9 {
+    background: #fff url(img/cat/catch.png);
+}
+
+.c10 {
+    background: #fff url(img/cat/choose.png);
+}
+
+.c11 {
+    background: #fff url(img/cat/come.png);
+}
+
+.c12 {
+    background: #fff url(img/cat/cut.png);
+}
+
+.c13 {
+    background: #fff url(img/cat/do.png);
+}
+
+.c14 {
+    background: #fff url(img/cat/draw.png);
+}
+
+.c15 {
+    background: #fff url(img/cat/dream.png);
+}
+
+.c16 {
+    background: #fff url(img/cat/drink.png);
+}
+
+.c17 {
+    background: #fff url(img/cat/drive.png);
+}
+
+.c18 {
+    background: #fff url(img/cat/dug.png);
+}
+
+.c19 {
+    background: #fff url(img/cat/eat.png);
+}
+
+.c20 {
+    background: #fff url(img/cat/fall.png);
+}
+
+.c21 {
+    background: #fff url(img/cat/feed.png);
+}
+
+.c22 {
+    background: #fff url(img/cat/feel.png);
+}
+
+.c23 {
+    background: #fff url(img/cat/fight.png);
+}
+
+.c24 {
+    background: #fff url(img/cat/find.png);
+}
+
+.c25 {
+    background: #fff url(img/cat/fly.png);
+}
+
+.c26 {
+    background: #fff url(img/cat/forget.png);
+}
+
+.c27 {
+    background: #fff url(img/cat/forgive.png);
+}
+
+.c28 {
+    background: #fff url(img/cat/get.png);
+}
+
+.c29 {
+    background: #fff url(img/cat/give.png);
+}
+
+.c30 {
+    background: #fff url(img/cat/go.png);
+}
+
+.c31 {
+    background: #fff url(img/cat/grow.png);
+}
+
+.c32 {
+    background: #fff url(img/cat/hang.png);
+}
+
+.c33 {
+    background: #fff url(img/cat/have.png);
+}
+
+.c34 {
+    background: #fff url(img/cat/hear.png);
+}
+
+.c35 {
+    background: #fff url(img/cat/hide.png);
+}
+
+.c36 {
+    background: #fff url(img/cat/hold.png);
+}
+
+.c37 {
+    background: #fff url(img/cat/keep.png);
+}
+
+.c38 {
+    background: #fff url(img/cat/know.png);
+}
+
+.c39 {
+    background: #fff url(img/cat/lay.png);
+}
+
+.c40 {
+    background: #fff url(img/cat/lead.png);
+}
+
+.c41 {
+    background: #fff url(img/cat/learrn.png);
+}
+
+.c42 {
+    background: #fff url(img/cat/let.png);
+}
+
+.c43 {
+    background: #fff url(img/cat/lie.png);
+}
+
+.c44 {
+    background: #fff url(img/cat/light.png);
+}
+
+.c45 {
+    background: #fff url(img/cat/lose.png);
+}
+
+.c46 {
+    background: #fff url(img/cat/make.png);
+}
+
+.c47 {
+    background: #fff url(img/cat/mean.png);
+}
+
+.c48 {
+    background: #fff url(img/cat/meet.png);
+}
+
+.c49 {
+    background: #fff url(img/cat/mistake.png);
+}
+
+.c50 {
+    background: #fff url(img/cat/pay.png);
+}
+
+.c51 {
+    background: #fff url(img/cat/put.png);
+}
+
+.c52 {
+    background: #fff url(img/cat/read.png);
+}
+
+.c53 {
+    background: #fff url(img/cat/ride.png);
+}
+
+.c54 {
+    background: #fff url(img/cat/ring.png);
+}
+
+.c55 {
+    background: #fff url(img/cat/rise.png);
+}
+
+.c56 {
+    background: #fff url(img/cat/run.png);
+}
+
+.c57 {
+    background: #fff url(img/cat/say.png);
+}
+
+.c58 {
+    background: #fff url(img/cat/see.png);
+}
+
+.c59 {
+    background: #fff url(img/cat/sell.png);
+}
+
+.c60 {
+    background: #fff url(img/cat/send.png);
+}
+
+.c61 {
+    background: #fff url(img/cat/set.png);
+}
+
+.c62 {
+    background: #fff url(img/cat/shake.png);
+}
+
+.c63 {
+    background: #fff url(img/cat/shine.png);
+}
+
+.c64 {
+    background: #fff url(img/cat/shoot.png);
+}
+
+.c65 {
+    background: #fff url(img/cat/shut.png);
+}
+
+.c66 {
+    background: #fff url(img/cat/sing.png);
+}
+
+.c67 {
+    background: #fff url(img/cat/sink.png);
+}
+
+.c68 {
+    background: #fff url(img/cat/sit.png);
+}
+
+.c69 {
+    background: #fff url(img/cat/sleep.png);
+}
+
+.c70 {
+    background: #fff url(img/cat/smell.png);
+}
+
+.c71 {
+    background: #fff url(img/cat/speak.png);
+}
+
+.c72 {
+    background: #fff url(img/cat/spend.png);
+}
+
+.c73 {
+    background: #fff url(img/cat/split.png);
+}
+
+.c74 {
+    background: #fff url(img/cat/spoil.png);
+}
+
+.c75 {
+    background: #fff url(img/cat/spread.png);
+}
+
+.c76 {
+    background: #fff url(img/cat/stand.png);
+}
+
+.c77 {
+    background: #fff url(img/cat/steal.png);
+}
+
+.c78 {
+    background: #fff url(img/cat/stick.png);
+}
+
+.c79 {
+    background: #fff url(img/cat/swear.png);
+}
+
+.c80 {
+    background: #fff url(img/cat/sweep.png);
+}
+
+.c81 {
+    background: #fff url(img/cat/swim.png);
+}
+
+.c82 {
+    background: #fff url(img/cat/take.png);
+}
+
+.c83 {
+    background: #fff url(img/cat/teach.png);
+}
+
+.c84 {
+    background: #fff url(img/cat/think.png);
+}
+
+.c85 {
+    background: #fff url(img/cat/throw.png);
+}
+
+.c86 {
+    background: #fff url(img/cat/wake.png);
+}
+
+.c87 {
+    background: #fff url(img/cat/wear.png);
+}
+
+.c88 {
+    background: #fff url(img/cat/win.png);
+}
+
+.c89 {
+    background: #fff url(img/cat/write.png);
+}
+
+.c90 {
+    background: #fff url(img/cat/.png);
+}
+
+.c_ {
+    background-repeat: no-repeat;
+    cursor: move;
+    color: transparent;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 1%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 150px;
+    background-size: 100%;
+    box-shadow: 0 0 15px #ccc;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.z {
+    color: #ccc;
+    right: 5px;
+    position: absolute;
+    top: 0;
+    display: block;
+    line-height: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.c_:hover {
+    background: #fff;
+    color: green;
+}
+
+.c {
+    position: absolute;
+    top: 200px;
+    left: 35%;
+}
+
+.up {
+    width: 50px;
+    position: fixed;
+    left: 90%;
+    bottom: 30px;
+}
+
+span {
+    margin-left: 50px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.discribe {
+    margin-bottom: 30px;
+}
+
+.cat {
+    background: url(img/cloud.png) no-repeat;
+    width: 75px;
+    height: 43px;
+    display: inline-block;
+    line-height: 45px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.cat:hover {
+    transform: translate(-5px);
+}
+
+.nav_left {
+    position: fixed;
+    left: 6%;
+    top: 150px;
+}
+
+.nav_right {
+    position: fixed;
+    right: 6%;
+    top: 150px;
+}
+
+.nav_left div,
+.nav_right div {
+    border: 2px solid #fff;
+    background: rgba(215, 223, 99, .7);
+    padding: 7%;
+    width: 100px;
+    text-align: center;
+    border-radius: 10%;
+    margin: 2%;
+    transition: 1s;
+}
+
+.nav_left div:hover,
+.nav_right div:hover {
+    border: 2px solid rgba(215, 223, 99, .7);
+    background: rgba(215, 255, 255, .5);
+    padding: 7%;
+    width: 100px;
+    text-align: center;
+    border-radius: 10%;
+    margin: 2%;
+    transform: translate(-5px);
+}
+
+.game {
+    width: 70%;
+    margin: -120px auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.game_2 div {
+    float: left;
+    margin: 3%;
+}
+
+.game_1 div {
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border: 2px solid #fff;
+    font-size: 22px;
+    background: rgba(161, 192, 213, .5);
+    margin: 1%;
+    display: inline-block;
+    border-radius: 0 100% 100% 100%;
+    transform: rotateZ(45deg);
+    cursor: move;
+}
+
+.game_2 div {
+    text-align: center;
+    width: 23%;
+    height: 200px;
+    line-height: 40px;
+    font-size: 22px;
+    padding: 3%;
+    background: url(img/cloud_.png) no-repeat;
+    background-size: 100%;
+}
+
+.game_3 {
+    text-align: center;
+    font-size: 32px;
+    background: rgba(255, 255, 255, .5);
+    border: 2px solid #fff;
+    border-radius: 10%;
+    margin: 7%;
+    padding: 4%;
+}
+
+
+/*index*/
+
+.catt img {
+    float: right;
+    margin-top: 25%;
+    animation-name: cat;
+    animation-duration: 3s;
+    margin-right: 5%;
+}
+
+.cattt img {
+    float: right;
+    margin-top: 100px;
+    animation-name: cat;
+    animation-duration: 3s;
+    margin-right: 5%;
+}
+
+@keyframes cat {
+    from {
+        margin-right: -5%;
+    }
+    to {
+        margin-right: 10%;
+    }
+}
+
+.think img {
+    position: absolute;
+    top: 400px;
+    z-index: 10;
+    animation-name: think;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    right: 17%;
+}
+
+.think img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.thinkk img {
+    position: absolute;
+    top: 100px;
+    z-index: 10;
+    animation-name: think;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    right: 17%;
+}
+
+.thinkk img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.think_ben_fly_use img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.think99_examples{
+	top:250px;
+    margin-left: 8%;
+    position: absolute;
+}
+.cat1_examples{
+	position: absolute;
+	top:440px;
+}
+	
+.kids{
+	margin-left:10%;
+	margin-top:20px;
+}
+
+.kids video{
+	border:3px solid rgba(163, 173, 164);
+}
+
+.cat_ben_fly_use img {
+    float: right;
+    margin-right: 0;
+}
+
+.think_ben_fly_use img {
+    float: right;
+    margin-top: -70px;
+    margin-right: -10%;
+    position: relative;
+}
+
+
+
+.cat_audio img {
+    float: right;
+    margin-right: 0;
+    transform: scale(0.7);
+}
+
+.think_poems img {
+    float: right;
+    margin-top: -370px;
+    margin-right: 10%;
+    position: relative;
+}
+
+.think_game img {
+    float: right;
+    margin-top: -770px;
+    margin-right: 15%;
+}
+
+.think_audio img {
+    float: right;
+    margin-top: -70px;
+    margin-right: -10%;
+    position: relative;
+}
+
+.cat_think_ben_fly {
+    animation-name: ben_fly;
+    animation-duration: 5s;
+}
+
+.cat_think_ben_fly1 {
+    opacity: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.cat_ben_ex img {
+    float: left;
+    margin-top: 170px;
+    margin-right: -10%;
+    position: relative;
+}
+
+.cat1_examples img {
+    
+    animation-name: cat111;
+}
+
+.think1_examples {
+    margin-top: -430px;
+    margin-left: 40%;
+    position: absolute;
+
+}
+
+@keyframes think1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*rounds(r)*/
+
+.r_1 {
+    width: 40px;
+    height: 30px;
+    background: white;
+    border: 6px solid black;
+    border-radius: 100%;
+    float: right;
+    margin-top: -50px;
+    margin-right: 100px;
+    animation-duration: 1s;
+    animation-name: rounds;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.r_2 {
+    width: 40px;
+    height: 30px;
+    background: white;
+    border: 6px solid black;
+    border-radius: 100%;
+    float: right;
+    animation-duration: 1s;
+    animation-name: rounds;
+    opacity: 0;
+    animation-delay: 1.5s;
+    margin-top: 200px;
+    animation-fill-mode: forwards;
+    margin-right: 100px;
+}
+
+.teacher_think {
+    margin-bottom:
+}
+
+.game {
+    position: absolute;
+    margin-left: 15%;
+}
+
+.r_3 {
+    width: 40px;
+    height: 30px;
+    background: white;
+    border: 6px solid black;
+    border-radius: 100%;
+    float: right;
+    animation-delay: 2s;
+    margin-top: 400px;
+    margin-right: 10px;
+    animation-name: rounds;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+@keyframes rounds {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.think_play img {
+    position: absolute;
+    margin-top: 400px;
+    transform: scale(2);
+    margin-left: 500px;
+    animation-name: rounds;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-duration: 1s;
+}
+
+.think_play img:hover{
+	transform: scale(3);
+	transition:2s;
+}
+
+.cat61 img{
+	transform:scale(0.7);
+	margin-left:75%;
+	margin-top:250px;
+	position:absolute;
+}
+
+
+.think61 img{
+	position:absolute;
+	float:right;
+	margin-left:70%;
+	margin-top:200px;
+}
+
+.cat32 img{
+	float:left;
+	margin-top:300px;
+	margin-left:-12%;
+}
+
+
+.think32 img{
+	margin-left:-30%;
+}
+.r_4 {
+    width: 40px;
+    height: 30px;
+    background: white;
+    border: 6px solid black;
+    border-radius: 100%;
+    animation-name: rounds;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    float: right;
+    animation-delay: 2.5s;
+    margin-top: 550px;
+    margin-right: 90px;
+    animation-duration: 1s;
+}
+
+.cat_play img {
+    margin-left: 70%;
+}
+
+@keyframes cat111 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.think1_examples img:hover {
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+@keyframes ben_fly {
+    from {
+        margin-right: -35%;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0%;
+        opacity: 1;
+        position: relative;
+    }
+}
+
+@keyframes think {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.clouds .cloud1 img {
+    position: absolute;
+    top: 90px;
+    left: 5%;
+    animation-duration: 13s;
+    animation-name: clouds;
+}
+
+.clouds .cloud2 img {
+    position: absolute;
+    top: 190px;
+    animation-duration: 13s;
+    animation-name: clouds;
+    left: 40%;
+}
+
+.pages_examples h1 {
+    position: absolute;
+}
+
+.help li {
+    display: inline-block;
+    font-family: cursive;
+    margin: 1%;
+}
+
+.help a {
+    color: white;
+}
+
+.clouds .cloud3 img {
+    position: absolute;
+    top: 90px;
+    left: 70%;
+    animation-duration: 13s;
+    animation-name: clouds;
+}
+
+@keyframes clouds {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        z-index: 0;
+    }
+}
+
+.p p {
+    text-align: center;
+    margin-right: -100%;
+}
+
+.p {
+    margin-top: 35%;
+}
+
+.clouds a {
+    color: #5e0567;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+a p {
+    margin-top: 10%;
+    margin-left: 5%;
+    z-index: 5;
+}
+
+
+/*videos*/
+
+.video_one {
+    margin-top: 38px;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.video_two {
+    position: relative;
+    left: 35%;
+    margin-top: -280px;
+}
+
+.video_three {
+    position: relative;
+    left: 65%;
+    margin-top: -300px;
+}
+
+.video_one video {
+    box-shadow: 0px 1px 19px 4px #7bbdf2;
+}
+
+.video_two video {
+    box-shadow: 0px 1px 19px 4px #ffc677;
+}
+
+.video_three video {
+    box-shadow: 0px 1px 19px 4px #74f177;
+}
+
+.video_one video:hover {
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.video_two video:hover {
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.video_three video:hover {
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+
+/*glav*/
+
+.glav_v h1 {
+    font-family: cursive;
+    color: white;
+    font-size: 70px;
+    text-align;
+    center;
+}
+
+.glav_v {
+    margin: 0 auto;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+.glav_r h1 {
+    font-family: cursive;
+    color: white;
+    font-size: 70px;
+    text-align;
+    center;
+}
+
+.glav_r {
+    margin: 0 auto;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+.glav_i h1 {
+    font-family: cursive;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.glav_i {
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.glav_a h1 {
+    font-family: cursive;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+.glav_a {
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-top: 0;
+}
+
+.glav_u h1 {
+    font-family: cursive;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+.glav_u {
+    margin: 0 auto;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+
+.glav_e h1 {
+    font-family: cursive;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+.glav_e {
+    margin: 0 auto;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+
+
+/*games*/
+
+.g_one {
+    width: 80px;
+    left: 42%;
+    top: 310px;
+    height: 40px;
+}
+
+.g_two {
+    width: 90px;
+    left: 50%;
+    top: 310px;
+    height: 40px;
+}
+
+.g_three {
+    width: 70px;
+    left: 59%;
+    top: 310px;
+    height: 40px;
+}
+
+.g_four {
+    width: 70px;
+    top: 360px;
+    left: 54%;
+    height: 40px;
+}
+
+.g_five {
+    width: 70px;
+    top: 360px;
+    left: 47%;
+    height: 40px;
+}
+
+
+/*training*/
+
+.a_vid {
+    width: 70px;
+    left: 7%;
+    top: 200px;
+    height: 40px;
+}
+
+.clouds div:hover {
+    background: orange;
+}
+
+.pages_examples div:hover {
+    background: orange;
+}
+
+.a_tab {
+    width: 70px;
+    left: 15%;
+    top: 200px;
+    height: 40px;
+}
+
+.teacher_think img {
+    margin-top: -150px;
+    margin-right: 10%;
+    width: 350px;
+}
+
+.a_aud {
+    width: 70px;
+    left: 23%;
+    top: 200px;
+    height: 40px;
+}
+
+.a_exa {
+    width: 85px;
+    left: 18%;
+    top: 250px;
+    height: 40px;
+}
+
+.a_poem {
+    width: 70px;
+    left: 11.5%;
+    top: 250px;
+    height: 40px;
+}
+
+.a_exa:hover {
+    color: red;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 2%;
+}
+
+.nav {
+    margin-left: 60%;
+}
+
+.nav a:hover {
+    color: brown;
+}
+
+.nav a {
+    color: #fefebe;
+}
+
+
+/*about work*/
+
+.lin,
+.res,
+.my_o,
+.read,
+.exp {
+    background: #7bbdf2;
+    border: 2px double #1373c2;
+}
+
+.g_one,
+.g_two,
+.g_three,
+.g_four,
+.g_five {
+    background: #74f177;
+    border: 2px double #13c216;
+}
+
+.a_vid,
+.a_tab,
+.a_aud,
+.a_exa,
+.a_poem {
+    border: 2px double #ff9e1f;
+    background: #ffc677;
+}
+
+.lin,
+.res,
+.my_o,
+.read,
+.exp,
+.g_one,
+.g_two,
+.g_three,
+.g_four,
+.g_five,
+.a_vid,
+.a_tab,
+.a_aud,
+.a_exa,
+.a_poem {
+    list-style: none;
+    position: absolute;
+    font-family: cursive;
+    animation-duration: 13s;
+    animation-name: clouds;
+    border-radius: 30%;
+    text-align: center;
+    padding-top: 0.5%;
+}
+
+.lin {
+    width: 70px;
+    left: 73%;
+    top: 200px;
+    height: 40px;
+}
+
+.res {
+    width: 70px;
+    left: 80%;
+    top: 200px;
+    height: 40px;
+}
+
+.my_o {
+    width: 60px;
+    left: 87%;
+    top: 200px;
+    height: 40px;
+}
+
+.read {
+    width: 70px;
+    left: 76%;
+    top: 250px;
+    height: 40px;
+}
+
+.exp {
+    width: 90px;
+    left: 83%;
+    top: 250px;
+    height: 40px;
+}
+
+.teacher img {
+    position: absolute;
+    top: 37%;
+    right: -2%;
+    transform: scale(0.7);
+    animation-duration: 3s;
+    animation-name: teacher;
+}
+
+@keyframes teacher {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.blackboard img {
+    position: absolute;
+    width: 70%;
+    animation-duration: 3s;
+    animation-name: teacher;
+}
+
+.blackboard {
+    top: 50px;
+    position: relative;
+}
+
+.box1 h1 {
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+
+.level li {
+    display: inline-block;
+    width: 50px;
+    margin: 1%;
+}
+
+.blackboard img {
+    position: relative;
+    left: 17%;
+    width: 70%;
+    animation-duration: 3s;
+    animation-name: teacher;
+}
+
+.video_irr {
+    margin-left: 20%;
+}
+
+.verbs_irr img {
+    margin-left: 25%;
+    opacity: 0.8;
+    border: 3px solid orange;
+    box-shadow: 5px 5px 5px orange;
+    border-radius: 5%;
+}
+
+.h22 {
+    color: white;
+    font-family: cursive;
+    font-size: 23px;
+    margin-left: 35%;
+}
+
+.poems {
+    width: 70%;
+    text-align: center;
+    height: 100%;
+    border-radius: 10%;
+    color: #000;
+    background: rgba(160, 192, 213, .7);
+    font-size: 18px;
+    margin-top: -300px;
+    padding: 1%;
+    box-shadow: 0px 0px 32px 0px orange;
+    border: 1px solid orange;
+}
+
+h2 {
+    color: #fff;
+}
+
+.bill_book img {
+    margin-left: 80%;
+}
+
+
+/*examples*/
+
+.page_11 {
+    width: 10%;
+    padding: 1.5%;
+    background: #FFE773;
+    border: 3px solid #FF7A00;
+    border-radius: 30%;
+     position: absolute;
+    color: black;
+    font-family: cursive;
+    left: 43%;
+	top:30px;
+  
+    text-align: center;
+}
+
+.page_2 {
+    width: 10%;
+    padding: 1.5%;
+    background: #C0F56E;
+    border: 3px solid #007B25;
+    border-radius: 30%;
+    position: absolute;
+    left: 43%;
+    color: black;
+    font-family: cursive;
+    top: 200px;
+    text-align: center;
+}
+
+.page_3 {
+    width: 10%;
+    padding: 1.5%;
+    background: #FF9473;
+    border: 3px solid #A40004;
+    border-radius: 30%;
+    position: absolute;
+    color: black;
+    font-family: cursive;
+    left: 30%;
+    top: 150px;
+    text-align: center;
+}
+
+.page_4 {
+    width: 10%;
+    padding: 1.5%;
+    background: #5CCCCC;
+    border: 3px solid #006363;
+    border-radius: 30%;
+    position: absolute;
+    left: 60%;
+    top: 150px;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+}
+
+.page_5 {
+    width: 10%;
+    padding: 1.5%;
+    background: #E266B7;
+    border: 3px solid #6C006C;
+    border-radius: 30%;
+    position: absolute;
+    left: 58%;
+    top: 300px;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+}
+
+.page_6 {
+    width: 10%;
+    padding: 1.5%;
+    background: #35D59D;
+    border: 3px solid #007730;
+    border-radius: 30%;
+    position: absolute;
+    left: 53%;
+    top: 400px;
+    text-align: center;
+    color: black;
+    font-family: cursive;
+}
+
+.page_7 {
+    width: 10%;
+    padding: 1.5%;
+    color: black;
+    font-family: cursive;
+    background: #B365D4;
+    border: 3px solid #85004B;
+    border-radius: 30%;
+    position: absolute;
+    left: 35%;
+    top: 300px;
+    text-align: center;
+}
+
+
+/*reading*/
+
+.read_1 {
+    background: rgba(160, 192, 213, .7);
+    text-align: center;
+    padding: 2%;
+    border: 2px solid #F7FE00;
+    border-radius: 10%;
+    font-size: 20px;
+    font-family: cursive;
+    float: left;
+    animation-duration: 4s;
+    animation-name: teacher;
+    box-shadow: 0px 0px 32px 0px #F7FE00;
+    position: relative;
+}
+
+cite {
+    color: white;
+    font-weight: bold;
+}
+
+.read_2 {
+    background: #F3FD72;
+    text-align: center;
+    padding: 2%;
+    border: 2px solid orange;
+    box-shadow: 0px 0px 32px 0px orange;
+    border-radius: 10%;
+    font-size: 20px;
+    font-family: cursive;
+    float: left;
+    animation-duration: 4s;
+    animation-name: teacher;
+    position: relative;
+}
+
+.read_2 cite {
+    color: orange;
+}
+
+
+/*index3*/
+
+.index3_h1 {
+    margin-top: 5%;
+}
+
+.two ul .firstpage li a {
+    color: white;
+    font-size: 33px;
+    font-family: cursive;
+    left: 30%;
+    border: 1px solid #557a62;
+    border-radius: 100%;
+    position: absolute;
+    top: 30%;
+    animation-duration: 5s;
+    animation-name: teacher;
+    padding: 1%;
+}
+
+.two ul .firstpage li a:hover {
+    border: 1px solid white;
+    transition: 0.1s;
+    padding: 1%;
+}
+
+.two ul .secondpage li a {
+    color: white;
+    font-size: 33px;
+    font-family: cursive;
+    left: 30%;
+    border: 1px solid #557a62;
+    border-radius: 100%;
+    position: absolute;
+    top: 45%;
+    animation-duration: 5s;
+    animation-name: teacher;
+    padding: 1%;
+}
+
+.two ul .secondpage li a:hover {
+    border: 1px solid white;
+    transition: 0.1s;
+    padding: 1%;
+}
+
+.two ul .thirdpage li a {
+    color: white;
+    font-size: 33px;
+    font-family: cursive;
+    left: 30%;
+    border: 1px solid #557a62;
+    border-radius: 100%;
+    position: absolute;
+    top: 60%;
+    animation-duration: 5s;
+    animation-name: teacher;
+    padding: 1%;
+}
+
+.two ul .thirdpage li a:hover {
+    border: 1px solid white;
+    transition: 0.1s;
+    padding: 1%;
+}
+
+.two ul .fourthpage li a {
+    color: white;
+    font-size: 33px;
+    font-family: cursive;
+    left: 47%;
+    border: 1px solid #557a62;
+    border-radius: 100%;
+    position: absolute;
+    top: 30%;
+    animation-duration: 5s;
+    animation-name: teacher;
+    padding: 1%;
+}
+
+.two ul .fourthpage li a:hover {
+    border: 1px solid white;
+    transition: 0.1s;
+    padding: 1%;
+}
+
+.two ul .fifthpage li a {
+    color: white;
+    font-size: 33px;
+    font-family: cursive;
+    left: 47%;
+    border: 1px solid #557a62;
+    border-radius: 100%;
+    position: absolute;
+    top: 45%;
+    animation-duration: 5s;
+    animation-name: teacher;
+    padding: 1%;
+}
+
+.two ul .fifthpage li a:hover {
+    border: 1px solid white;
+    transition: 0.1s;
+    padding: 1%;
+}
+
+.two ul .sixthpage li a {
+    color: white;
+    font-size: 33px;
+    font-family: cursive;
+    left: 47%;
+    border: 1px solid #557a62;
+    border-radius: 100%;
+    position: absolute;
+    top: 60%;
+    animation-duration: 5s;
+    animation-name: teacher;
+    padding: 1%;
+}
+
+.two ul .sixthpage li a:hover {
+    border: 1px solid white;
+    transition: 0.1s;
+    padding: 1%;
+}
+
+.two ul .seventhpage li a {
+    color: white;
+    font-size: 33px;
+    font-family: cursive;
+    left: 63%;
+    border: 1px solid #557a62;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    animation-duration: 5s;
+    animation-name: teacher;
+    padding: 1%;
+}
+
+.two ul .seventhpage li a:hover {
+    border: 1px solid white;
+    transition: 0.1s;
+    padding: 1%;
+}
+
+button {
+    display: block;
+    float: right;
+    padding: 1%;
+    width: 80px;
+    background: rgba(215, 223, 99, .7);
+    border-radius: 20%;
+    border: 1px solid #fff;
+    margin: 1%;
+    color: brown;
+    font-weight: bold;
+}
+
+button:hover {
+    background: linear-gradient(#febb52, #f08c16);
+}
+
+aside {
+    float: left;
+    margin: 1%;
+    width: 47%;
+}
+
+aside img {
+    box-shadow: 0 0 7px gray;
+}
+
+.poz_cat_bottom {
+    position: absolute;
+    top: 85px;
+    left: 10px;
+}
+
+#akkordion {
+    width: 45%;
+    /* Ширина */
+    height: 500px;
+    /* Высота  */
+    margin-right: 0;
+    margin-top: -600px;
+}
+
+#akkordion h1 {
+    padding: 10px;
+    /* Внутренний отступ */
+    background: #cbdbe8;
+    text-align: center;
+    font-family: cursive;
+}
+
+#akkordion li {
+    padding: 5px;
+    /* Внутренний отступ */
+    background: #919f54;
+    /* Фон */
+    list-style: none;
+    /* Убираем стандартные кружки перед тегом */
+    height: 13%;
+    /* Первоначальная высота */
+    width: 100%;
+    /* Первоначальная ширина */
+    overflow: hidden;
+    /* Убираем, что не поместилось в 10% */
+    -webkit-transition: 0.8s;
+    -webkit-transform: scale(0.8);
+}
+
+#akkordion:hover li {
+    width: 100%;
+    /* Ширина при наведении на блок */
+}
+
+#akkordion li:hover {
+    height: 71%;
+    /* Высота при наведении */
+    width: 100%;
+    /* Ширина при наведении */
+}
+
+#akkordion p {
+    font-size: 30px;
+    padding: 4%;
+    color: white;
+    font-family: cursive;
+}
+
+#akkordion mark {
+    background: #f9a831;
+}
+
+
+/*akkordion-2*/
+
+#akkordion_2 {
+    width: 50%;
+    /* Ширина */
+    height: 500px;
+    /* Высота  */
+    margin-left: 50%;
+    position: relative;
+}
+
+#akkordion_2 h1 {
+    padding: 10px;
+    /* Внутренний отступ */
+    background: #cbdbe8;
+    text-align: center;
+    font-family: cursive;
+}
+
+#akkordion_2 li {
+    padding: 5px;
+    /* Внутренний отступ */
+    background: #919f54;
+    /* Фон */
+    list-style: none;
+    /* Убираем стандартные кружки перед тегом */
+    height: 13%;
+    /* Первоначальная высота */
+    width: 100%;
+    /* Первоначальная ширина */
+    overflow: hidden;
+    /* Убираем, что не поместилось в 10% */
+    -webkit-transition: 0.8s;
+    -webkit-transform: scale(0.8);
+}
+
+#akkordion_2:hover li {
+    width: 100%;
+    /* Ширина при наведении на блок */
+}
+
+#akkordion_2 li:hover {
+    height: 71%;
+    /* Высота при наведении */
+    width: 100%;
+    /* Ширина при наведении */
+}
+
+#akkordion_2 p {
+    font-size: 30px;
+    padding: 4%;
+    color: white;
+    font-family: cursive;
+}
+
+#akkordion_2 mark {
+    background: #f9a831;
+}
+
+.play {
+    width: 110%;
+}
+
+#cube{
+	background:  url(img/kub.png) no-repeat;
+	width:70px;
+	height: 70px;
+	background-size:100%;
+	transition:2s;
+}
+#cube:hover{
+	transform: rotate(360deg);
+}
+
+#demo{
+	color: brown;
+}
+
+.fr1{
+	background:  url(img/fr1.png) no-repeat;
+	width:40px;
+	height: 35px;
+	position: absolute;
+	left: 45%;
+	top:370px;
+}
+
+.fr2{
+	background:  url(img/fr2.png) no-repeat;
+	width:40px;
+	height: 65px;
+	position: absolute;
+	left: 50%;
+	top:370px;
+}
+
+.fr3{
+	background:  url(img/fr3.png) no-repeat;
+	width:40px;
+	height: 35px;
+	position: absolute;
+	left: 55%;
+	top:370px;
+}
+
+@media screen and (max-width: 960px) {
+    html {
+        zoom: 67%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    html {
+        zoom: 54%;
+    }
+}

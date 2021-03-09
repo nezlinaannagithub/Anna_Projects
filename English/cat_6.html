@@ -1,0 +1,299 @@
+<!Doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="cat.css">
+     <link rel="icon" href="img/icon.png">
+      <div class="comeback"><a href="examples.html"><img class="comeback" src="img/comeback.png" width="100" height="100"></a></div>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+     <script>
+    $(document).ready(function(){
+    
+        $("img").fadeOut();
+        $("span").fadeOut();
+     $(".comeback").fadeIn();
+   
+        $("#sit").draggable().click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_sit").fadeIn(1000);
+            $("#sit_1").delay(1000).fadeIn();
+            $("#sit_2").delay(2000).fadeIn();
+            $("#sit_3").delay(3000).fadeIn();
+			$(".comeback").fadeIn();
+        });
+         
+        $("#sleep").click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_sleep").fadeIn(1000);
+            $("#sleep_1").delay(1000).fadeIn();
+            $("#sleep_2").delay(2000).fadeIn();
+            $("#sleep_3").delay(3000).fadeIn(); 
+			$(".comeback").fadeIn();
+        });
+		
+		 $("#speak").click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_speak").fadeIn(1000);
+            $("#speak_1").delay(1000).fadeIn();
+            $("#speak_2").delay(2000).fadeIn();
+            $("#speak_3").delay(3000).fadeIn();
+			$(".comeback").fadeIn();
+        });
+		
+		 $("#spend").click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_spend").fadeIn(1000);
+            $("#spend_1").delay(1000).fadeIn();
+            $("#spend_2").delay(2000).fadeIn();
+            $("#spend_3").delay(3000).fadeIn(); 
+			$(".comeback").fadeIn();
+        });
+		
+		 $("#split").click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_split").fadeIn(1000);
+            $("#split_1").delay(1000).fadeIn();
+            $("#split_2").delay(2000).fadeIn();
+            $("#split_3").delay(3000).fadeIn(); 
+			$(".comeback").fadeIn();
+        });
+		
+		 $("#spread").click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_spread").fadeIn(1000);
+            $("#spread_1").delay(1000).fadeIn();
+            $("#spread_2").delay(2000).fadeIn();
+            $("#spread_3").delay(3000).fadeIn();
+			$(".comeback").fadeIn();
+        });
+		
+		 $("#stand").click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_stand").fadeIn(1000);
+            $("#stand_1").delay(1000).fadeIn();
+            $("#stand_2").delay(2000).fadeIn();
+            $("#stand_3").delay(3000).fadeIn();
+			$(".comeback").fadeIn();
+        });
+		
+		 $("#steal").click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_steal").fadeIn(1000);
+            $("#steal_1").delay(1000).fadeIn();
+            $("#steal_2").delay(2000).fadeIn();
+            $("#steal_3").delay(3000).fadeIn();
+			$(".comeback").fadeIn();
+        });
+		
+		 $("#swear").click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_swear").fadeIn(1000);
+            $("#swear_1").delay(1000).fadeIn();
+            $("#swear_2").delay(2000).fadeIn();
+            $("#swear_3").delay(3000).fadeIn();
+$(".comeback").fadeIn();			
+        });
+        
+		$("#swim").click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_swim").fadeIn(1000);
+            $("#swim_1").delay(1000).fadeIn();
+            $("#swim_2").delay(2000).fadeIn();
+            $("#swim_3").delay(3000).fadeIn(); 
+$(".comeback").fadeIn();			
+        });
+		
+		
+       		 $("#stick").click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_stick").fadeIn(1000);
+            $("#stick_1").delay(1000).fadeIn();
+            $("#stick_2").delay(2000).fadeIn();
+            $("#stick_3").delay(3000).fadeIn();  
+$(".comeback").fadeIn();			
+        });
+        
+		$("#sweep").click(function(){
+            $("img").fadeOut();
+            $("span").fadeOut();
+            $("#img_sweep").fadeIn(1000);
+            $("#sweep_1").delay(1000).fadeIn();
+            $("#sweep_2").delay(2000).fadeIn();
+            $("#sweep_3").delay(3000).fadeIn(); 
+$(".comeback").fadeIn();			
+        });
+		
+		
+	
+       
+
+    });
+   
+    
+</script>
+</head>
+
+<body>
+
+    <div class="verb">
+       <div class="cat"  id="sit" title="Сидеть">sit</div>
+       <div class="cat"  id="sleep" title="Спать">sleep</div>
+       <div class="cat"  id="speak" title="Говорить">speak</div>
+       <div class="cat"  id="spend" title="Тратить">spend</div>
+       <div class="cat"  id="split" title="Раскалывать">split</div>
+       <div class="cat"  id="spread" title="Распространять">spread</div>
+       <div class="cat"  id="stand" title="Стоять">stand</div>
+       <div class="cat"  id="steal" title="Красть">steal</div>
+       <div class="cat"  id="swear" title="Клясться">swear</div>
+       <div class="cat"  id="swim" title="Плавать">swim</div>
+        <div class="cat"  id="stick" title="Втыкать, приклеивать">stick</div>
+       <div class="cat"  id="sweep" title="Подметать">sweep</div>
+	 
+    </div>
+    
+    <div class="cats">
+    
+        <div class="c">
+        
+            <div class="discribe">
+                <span id="sit_1">sit</span>
+                <span id="sit_2">sat</span>
+                <span id="sit_3">sat</span>
+            </div>
+            <img src="img/cat/sit.png" id="img_sit">
+            
+        </div>
+        
+        <div class="c">
+        
+            <div class="discribe">
+                <span id="sleep_1">sleep</span>
+                <span id="sleep_2">slept</span>
+                <span id="sleep_3">slept</span>
+            </div>
+            <img src="img/cat/sleep.png" id="img_sleep">
+            
+        </div>
+		
+		<div class="c">
+        
+            <div class="discribe">
+                <span id="speak_1">speak</span>
+                <span id="speak_2">spoke</span>
+                <span id="speak_3">spoken</span>
+            </div>
+            <img src="img/cat/speak.png" id="img_speak">
+            
+        </div>
+		
+		<div class="c">
+        
+            <div class="discribe">
+                <span id="spend_1">spend</span>
+                <span id="spend_2">spent</span>
+                <span id="spend_3">spent</span>
+            </div>
+            <img src="img/cat/spend.png" id="img_spend">
+            
+        </div>
+		<div class="c">
+        
+            <div class="discribe">
+                <span id="split_1">split</span>
+                <span id="split_2">split</span>
+                <span id="split_3">split</span>
+            </div>
+            <img src="img/cat/split.png" id="img_split">
+            
+        </div>
+		<div class="c">
+        
+            <div class="discribe">
+                <span id="spread_1">spread</span>
+                <span id="spread_2">spread</span>
+                <span id="spread_3">spread</span>
+            </div>
+            <img src="img/cat/spread.png" id="img_spread">
+            
+        </div>
+		<div class="c">
+        
+            <div class="discribe">
+                <span id="stand_1">stand</span>
+                <span id="stand_2">stood</span>
+                <span id="stand_3">stood</span>
+            </div>
+            <img src="img/cat/stand.png" id="img_stand">
+            
+        </div>
+		<div class="c">
+        
+            <div class="discribe">
+                <span id="steal_1">steal</span>
+                <span id="steal_2">stole</span>
+                <span id="steal_3">stolen</span>
+            </div>
+            <img src="img/cat/steal.png" id="img_steal">
+            
+        </div>
+		<div class="c">
+        
+            <div class="discribe">
+                <span id="swear_1">swear</span>
+                <span id="swear_2">swore</span>
+                <span id="swear_3">sworn</span>
+            </div>
+            <img src="img/cat/swear.png" id="img_swear">
+            
+        </div>
+		<div class="c">
+        
+            <div class="discribe">
+                <span id="swim_1">swim</span>
+                <span id="swim_2">swam</span>
+                <span id="swim_3">swum</span>
+            </div>
+            <img src="img/cat/swim.png" id="img_swim">
+            
+        </div>
+		
+			<div class="c">
+        
+            <div class="discribe">
+                <span id="stick_1">stick</span>
+                <span id="stick_2">stuck</span>
+                <span id="stick_3">stuck</span>
+            </div>
+            <img src="img/cat/stick.png" id="img_stick">
+            
+        </div>
+		<div class="c">
+        
+            <div class="discribe">
+                <span id="sweep_1">sweep</span>
+                <span id="sweep_2">swept</span>
+                <span id="sweep_3">swept</span>
+            </div>
+            <img src="img/cat/sweep.png" id="img_sweep">
+            
+        </div>
+	
+	
+        
+    </div>
+</body>
+
+</html>
